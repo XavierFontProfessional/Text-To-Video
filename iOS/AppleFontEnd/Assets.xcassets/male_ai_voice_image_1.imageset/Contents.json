@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "serious-looking-male-handsome-guy-with-blond-hair-wearing-grey-hoodie-people-emotion-concept-watching-confident-isolated-grey-wall_295783-13901.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36D3EDC72964AD3200DAD312 /* libavutil.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D3EDBF2964AD3000DAD312 /* libavutil.xcframework */; };
+		36D3EDC82964AD3200DAD312 /* libavutil.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36D3EDBF2964AD3000DAD312 /* libavutil.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36D3EDC92964AD3200DAD312 /* libavfilter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D3EDC02964AD3000DAD312 /* libavfilter.xcframework */; };
+		36D3EDCA2964AD3200DAD312 /* libavfilter.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36D3EDC02964AD3000DAD312 /* libavfilter.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36D3EDCB2964AD3200DAD312 /* libswresample.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D3EDC12964AD3000DAD312 /* libswresample.xcframework */; };
+		36D3EDCC2964AD3200DAD312 /* libswresample.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36D3EDC12964AD3000DAD312 /* libswresample.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36D3EDCD2964AD3200DAD312 /* libavdevice.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D3EDC22964AD3000DAD312 /* libavdevice.xcframework */; };
+		36D3EDCE2964AD3200DAD312 /* libavdevice.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36D3EDC22964AD3000DAD312 /* libavdevice.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36D3EDCF2964AD3200DAD312 /* libavcodec.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D3EDC32964AD3100DAD312 /* libavcodec.xcframework */; };
+		36D3EDD02964AD3200DAD312 /* libavcodec.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36D3EDC32964AD3100DAD312 /* libavcodec.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36D3EDD12964AD3200DAD312 /* libavformat.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D3EDC42964AD3100DAD312 /* libavformat.xcframework */; };
+		36D3EDD22964AD3200DAD312 /* libavformat.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36D3EDC42964AD3100DAD312 /* libavformat.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36D3EDD32964AD3300DAD312 /* ffmpegkit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D3EDC52964AD3100DAD312 /* ffmpegkit.xcframework */; };
+		36D3EDD42964AD3300DAD312 /* ffmpegkit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36D3EDC52964AD3100DAD312 /* ffmpegkit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36D3EDD52964AD3300DAD312 /* libswscale.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D3EDC62964AD3200DAD312 /* libswscale.xcframework */; };
+		36D3EDD62964AD3300DAD312 /* libswscale.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36D3EDC62964AD3200DAD312 /* libswscale.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9A03A88D28A0D28D00074D69 /* OptionsScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A03A88C28A0D28D00074D69 /* OptionsScrollView.swift */; };
+		9A96238F2899BEB40080782E /* VideoAutomationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96238E2899BEB40080782E /* VideoAutomationPage.swift */; };
+		9A9623922899D73E0080782E /* SnapToScroll in Frameworks */ = {isa = PBXBuildFile; productRef = 9A9623912899D73E0080782E /* SnapToScroll */; };
+		9AB39BFE289B301500B5F66C /* dreams.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9AB39BFD289B301500B5F66C /* dreams.mp3 */; };
+		9ABE939C28ADF22C00D5DB84 /* RenderEngineSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE939B28ADF22C00D5DB84 /* RenderEngineSlider.swift */; };
+		9AC903D32898A9A9008CA248 /* AppleFontEndApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC903D22898A9A9008CA248 /* AppleFontEndApp.swift */; };
+		9AC903D52898A9A9008CA248 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC903D42898A9A9008CA248 /* ContentView.swift */; };
+		9AC903D72898A9AB008CA248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC903D62898A9AB008CA248 /* Assets.xcassets */; };
+		9AC903E12898CCBB008CA248 /* ScriptToVideoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC903E02898CCBB008CA248 /* ScriptToVideoPage.swift */; };
+		9AC903E32898F051008CA248 /* StoredGeneratedVideosPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC903E22898F051008CA248 /* StoredGeneratedVideosPage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9A03A8A728A0F00C00074D69 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				36D3EDCE2964AD3200DAD312 /* libavdevice.xcframework in Embed Frameworks */,
+				36D3EDD22964AD3200DAD312 /* libavformat.xcframework in Embed Frameworks */,
+				36D3EDD02964AD3200DAD312 /* libavcodec.xcframework in Embed Frameworks */,
+				36D3EDD42964AD3300DAD312 /* ffmpegkit.xcframework in Embed Frameworks */,
+				36D3EDCA2964AD3200DAD312 /* libavfilter.xcframework in Embed Frameworks */,
+				36D3EDCC2964AD3200DAD312 /* libswresample.xcframework in Embed Frameworks */,
+				36D3EDD62964AD3300DAD312 /* libswscale.xcframework in Embed Frameworks */,
+				36D3EDC82964AD3200DAD312 /* libavutil.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		36D3EDBF2964AD3000DAD312 /* libavutil.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libavutil.xcframework; path = "../../../Downloads/ffmpeg-kit-full-5-2/libavutil.xcframework"; sourceTree = "<group>"; };
+		36D3EDC02964AD3000DAD312 /* libavfilter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libavfilter.xcframework; path = "../../../Downloads/ffmpeg-kit-full-5-2/libavfilter.xcframework"; sourceTree = "<group>"; };
+		36D3EDC12964AD3000DAD312 /* libswresample.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libswresample.xcframework; path = "../../../Downloads/ffmpeg-kit-full-5-2/libswresample.xcframework"; sourceTree = "<group>"; };
+		36D3EDC22964AD3000DAD312 /* libavdevice.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libavdevice.xcframework; path = "../../../Downloads/ffmpeg-kit-full-5-2/libavdevice.xcframework"; sourceTree = "<group>"; };
+		36D3EDC32964AD3100DAD312 /* libavcodec.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libavcodec.xcframework; path = "../../../Downloads/ffmpeg-kit-full-5-2/libavcodec.xcframework"; sourceTree = "<group>"; };
+		36D3EDC42964AD3100DAD312 /* libavformat.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libavformat.xcframework; path = "../../../Downloads/ffmpeg-kit-full-5-2/libavformat.xcframework"; sourceTree = "<group>"; };
+		36D3EDC52964AD3100DAD312 /* ffmpegkit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ffmpegkit.xcframework; path = "../../../Downloads/ffmpeg-kit-full-5-2/ffmpegkit.xcframework"; sourceTree = "<group>"; };
+		36D3EDC62964AD3200DAD312 /* libswscale.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libswscale.xcframework; path = "../../../Downloads/ffmpeg-kit-full-5-2/libswscale.xcframework"; sourceTree = "<group>"; };
+		9A03A88C28A0D28D00074D69 /* OptionsScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsScrollView.swift; sourceTree = "<group>"; };
+		9A96238E2899BEB40080782E /* VideoAutomationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoAutomationPage.swift; sourceTree = "<group>"; };
+		9AB39BFD289B301500B5F66C /* dreams.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dreams.mp3; sourceTree = "<group>"; };
+		9ABE939B28ADF22C00D5DB84 /* RenderEngineSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderEngineSlider.swift; sourceTree = "<group>"; };
+		9AC903CF2898A9A9008CA248 /* AppleFontEnd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleFontEnd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC903D22898A9A9008CA248 /* AppleFontEndApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFontEndApp.swift; sourceTree = "<group>"; };
+		9AC903D42898A9A9008CA248 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9AC903D62898A9AB008CA248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AC903E02898CCBB008CA248 /* ScriptToVideoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptToVideoPage.swift; sourceTree = "<group>"; };
+		9AC903E22898F051008CA248 /* StoredGeneratedVideosPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredGeneratedVideosPage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AC903CC2898A9A9008CA248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D3EDC92964AD3200DAD312 /* libavfilter.xcframework in Frameworks */,
+				36D3EDD32964AD3300DAD312 /* ffmpegkit.xcframework in Frameworks */,
+				36D3EDD12964AD3200DAD312 /* libavformat.xcframework in Frameworks */,
+				36D3EDCF2964AD3200DAD312 /* libavcodec.xcframework in Frameworks */,
+				36D3EDC72964AD3200DAD312 /* libavutil.xcframework in Frameworks */,
+				36D3EDCD2964AD3200DAD312 /* libavdevice.xcframework in Frameworks */,
+				36D3EDCB2964AD3200DAD312 /* libswresample.xcframework in Frameworks */,
+				36D3EDD52964AD3300DAD312 /* libswscale.xcframework in Frameworks */,
+				9A9623922899D73E0080782E /* SnapToScroll in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A03A88E28A0F00B00074D69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36D3EDC52964AD3100DAD312 /* ffmpegkit.xcframework */,
+				36D3EDC32964AD3100DAD312 /* libavcodec.xcframework */,
+				36D3EDC22964AD3000DAD312 /* libavdevice.xcframework */,
+				36D3EDC02964AD3000DAD312 /* libavfilter.xcframework */,
+				36D3EDC42964AD3100DAD312 /* libavformat.xcframework */,
+				36D3EDBF2964AD3000DAD312 /* libavutil.xcframework */,
+				36D3EDC12964AD3000DAD312 /* libswresample.xcframework */,
+				36D3EDC62964AD3200DAD312 /* libswscale.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AC903C62898A9A9008CA248 = {
+			isa = PBXGroup;
+			children = (
+				9AC903D12898A9A9008CA248 /* AppleFontEnd */,
+				9AC903D02898A9A9008CA248 /* Products */,
+				9A03A88E28A0F00B00074D69 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9AC903D02898A9A9008CA248 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AC903CF2898A9A9008CA248 /* AppleFontEnd.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AC903D12898A9A9008CA248 /* AppleFontEnd */ = {
+			isa = PBXGroup;
+			children = (
+				9AC903D22898A9A9008CA248 /* AppleFontEndApp.swift */,
+				9AC903D42898A9A9008CA248 /* ContentView.swift */,
+				9AC903E02898CCBB008CA248 /* ScriptToVideoPage.swift */,
+				9AC903E22898F051008CA248 /* StoredGeneratedVideosPage.swift */,
+				9A96238E2899BEB40080782E /* VideoAutomationPage.swift */,
+				9A03A88C28A0D28D00074D69 /* OptionsScrollView.swift */,
+				9ABE939B28ADF22C00D5DB84 /* RenderEngineSlider.swift */,
+				9AC903D62898A9AB008CA248 /* Assets.xcassets */,
+				9AB39BFD289B301500B5F66C /* dreams.mp3 */,
+			);
+			path = AppleFontEnd;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AC903CE2898A9A9008CA248 /* AppleFontEnd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AC903DD2898A9AB008CA248 /* Build configuration list for PBXNativeTarget "AppleFontEnd" */;
+			buildPhases = (
+				9AC903CB2898A9A9008CA248 /* Sources */,
+				9AC903CC2898A9A9008CA248 /* Frameworks */,
+				9AC903CD2898A9A9008CA248 /* Resources */,
+				9A03A8A728A0F00C00074D69 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleFontEnd;
+			packageProductDependencies = (
+				9A9623912899D73E0080782E /* SnapToScroll */,
+			);
+			productName = AppleFontEnd;
+			productReference = 9AC903CF2898A9A9008CA248 /* AppleFontEnd.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AC903C72898A9A9008CA248 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					9AC903CE2898A9A9008CA248 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 9AC903CA2898A9A9008CA248 /* Build configuration list for PBXProject "AppleFontEnd" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AC903C62898A9A9008CA248;
+			packageReferences = (
+				9A9623902899D73E0080782E /* XCRemoteSwiftPackageReference "hstack-snap-to-scroll" */,
+			);
+			productRefGroup = 9AC903D02898A9A9008CA248 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AC903CE2898A9A9008CA248 /* AppleFontEnd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AC903CD2898A9A9008CA248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB39BFE289B301500B5F66C /* dreams.mp3 in Resources */,
+				9AC903D72898A9AB008CA248 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AC903CB2898A9A9008CA248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABE939C28ADF22C00D5DB84 /* RenderEngineSlider.swift in Sources */,
+				9AC903D52898A9A9008CA248 /* ContentView.swift in Sources */,
+				9AC903E32898F051008CA248 /* StoredGeneratedVideosPage.swift in Sources */,
+				9A03A88D28A0D28D00074D69 /* OptionsScrollView.swift in Sources */,
+				9A96238F2899BEB40080782E /* VideoAutomationPage.swift in Sources */,
+				9AC903D32898A9A9008CA248 /* AppleFontEndApp.swift in Sources */,
+				9AC903E12898CCBB008CA248 /* ScriptToVideoPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9AC903DB2898A9AB008CA248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AC903DC2898A9AB008CA248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AC903DE2898A9AB008CA248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleFontEnd/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.AppleFontEnd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AC903DF2898A9AB008CA248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleFontEnd/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.AppleFontEnd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AC903CA2898A9A9008CA248 /* Build configuration list for PBXProject "AppleFontEnd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC903DB2898A9AB008CA248 /* Debug */,
+				9AC903DC2898A9AB008CA248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AC903DD2898A9AB008CA248 /* Build configuration list for PBXNativeTarget "AppleFontEnd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC903DE2898A9AB008CA248 /* Debug */,
+				9AC903DF2898A9AB008CA248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9A9623902899D73E0080782E /* XCRemoteSwiftPackageReference "hstack-snap-to-scroll" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/swiftui-library/hstack-snap-to-scroll.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9A9623912899D73E0080782E /* SnapToScroll */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A9623902899D73E0080782E /* XCRemoteSwiftPackageReference "hstack-snap-to-scroll" */;
+			productName = SnapToScroll;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9AC903C72898A9A9008CA248 /* Project object */;
+}

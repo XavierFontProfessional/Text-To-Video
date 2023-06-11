@@ -1,0 +1,3 @@
+[submodule "Server/Elastic Search Dictionary"]
+	path = Server/Elastic Search Dictionary
+	url = https://github.com/Xavifontv/Part-Of-Speech-Dictionary.git
