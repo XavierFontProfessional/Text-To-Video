@@ -288,7 +288,7 @@ impl Clip {
 
         let mut res = Client::new()
             .post(url)
-            .header( "Ocp-Apim-Subscription-Key", std::env::var("AZURE_TTS_OCP-APIM-SUBSCRIPTION_KEY").expect("AZURE_TTS_OCP-APIM-SUBSCRIPTION_KEY must be set"))
+            .header( "Ocp-Apim-Subscription-Key", std::env::var("AZURE_TTS_SUBSCRIPTION_KEY").expect("AZURE_TTS_OCP-APIM-SUBSCRIPTION_KEY must be set"))
             .header(CONTENT_TYPE, "application/ssml+xml")
             .header("X-Microsoft-OutputFormat",format!("audio-{}khz-{}kbitrate-{}-mp3", sample_rate_khz, bit_rate_kbps, channels))
             .header(USER_AGENT, "curl")

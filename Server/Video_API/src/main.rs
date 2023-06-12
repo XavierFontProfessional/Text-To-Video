@@ -4,6 +4,7 @@ use actix_web::{get, web, App, HttpServer, Responder, HttpResponse};
 use actix_web::http::StatusCode;
 use actix_web::middleware::Logger;
 use actix_web::web::Json;
+use dotenv::dotenv;
 use serde_json::{json, Value};
 use crate::clip::clip::Clip;
 use crate::script::script::Script;
@@ -24,6 +25,7 @@ mod clip;
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
+    dotenv().ok();
     HttpServer::new(|| {
         let cors = actix_cors::Cors::permissive();
 

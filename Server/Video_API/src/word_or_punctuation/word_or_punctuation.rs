@@ -1,3 +1,4 @@
+use dotenv::dotenv;
 use elasticsearch::auth::Credentials;
 use elasticsearch::{Elasticsearch, Error, MsearchParts};
 use elasticsearch::cert::CertificateValidation;
@@ -78,6 +79,7 @@ impl WordOrPunctuation {
 
     pub async fn assign_word_data(mut words_and_punctuation: Vec<WordOrPunctuation>) -> Result<Vec<WordOrPunctuation>, Error> {
         // FORMING REQUEST BODY SECTIONS
+
 
         let mut request_pieces: Vec<String> = Vec::new();
 
