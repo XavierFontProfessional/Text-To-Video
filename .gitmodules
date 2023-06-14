@@ -1,3 +1,6 @@
 [submodule "Server/Elastic Search Dictionary"]
 	path = Server/Elastic Search Dictionary
 	url = https://github.com/Xavifontv/Part-Of-Speech-Dictionary.git
+[submodule "Video_API"]
+	path = Video_API
+	url = https://github.com/XavierFontProfessional/TTV-API.git
