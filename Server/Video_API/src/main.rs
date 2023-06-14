@@ -218,7 +218,6 @@ async fn create_video_instructions(request: Json<serde_json::Value>) -> HttpResp
         "voices": voices
     });
 
-    println!("{:?}", response_body["voices"]);
     return HttpResponse::Ok().json(response_body);
 }
 

@@ -96,7 +96,7 @@ impl WordOrPunctuation {
         // REQUEST BODY SECTIONS
         let cert: CertificateValidation = CertificateValidation::None;
         let credentials = Credentials::Basic("elastic".into(), std::env::var("ELASTICSEARCH_PASSWORD").expect("ELASTICSEARCH_PASSWORD must be set").into());
-        let u = Url::parse("https://34.130.132.244:9200")?;
+        let u = Url::parse("https://34.130.74.140:9200")?;
         let conn_pool = SingleNodeConnectionPool::new(u);
         let transport = TransportBuilder::new(conn_pool).auth(credentials).cert_validation(cert).build()?;
         let client = Elasticsearch::new(transport);
