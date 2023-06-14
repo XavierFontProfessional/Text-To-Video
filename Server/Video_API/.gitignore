@@ -1,9 +1,0 @@
-.env
-target/
-**/*.rs.bk
-*.iml
-.idea/
-.vscode/
-Cargo.lock
-cert.pem
-key.pem
